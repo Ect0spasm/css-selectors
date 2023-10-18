@@ -1,0 +1,95 @@
+.synopsis {
+  color: #7E8184;
+  font-style: italic;
+}
+
+.synopsis em {
+  font-style: normal;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #FFF;
+  background-color: orange;
+  color: rgb(95, 95, 95);
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: aquamarine;
+}
+
+.button:active,
+.button:visited:active {
+  background-color: orangered;
+  color: rgb(95, 95, 95)
+}
+
+#button-2 {
+  color:orange;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto;
+
+}
+
+.page > p:first-of-type {
+  font-style: italic;
+  color:#7E8184
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #7E8184;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: aquamarine;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: orangered;
+}
+
+a:link {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a:active {
+  color: orangered;
+}
+
+a:visited:active {
+  color: orange;
+}
+
+p:last-of-type {
+  margin-bottom: 50px;
+}
